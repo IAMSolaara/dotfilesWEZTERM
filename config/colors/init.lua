@@ -1,7 +1,8 @@
 local macchiato_palette = require("config.colors.catppuccin_macchiato")
 local config = {}
 
-local background = macchiato_palette.crust.hex
+--local background = macchiato_palette.crust.hex
+local background = "#1a1a1a"
 
 config.color_scheme = "Catppuccin Macchiato"
 config.colors = {
@@ -21,7 +22,7 @@ config.colors = {
 		},
 	},
 }
-config.window_background_opacity = 0.93
+config.window_background_opacity = 0.83
 config.macos_window_background_blur = 24
 
 return config
